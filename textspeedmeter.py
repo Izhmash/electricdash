@@ -5,7 +5,7 @@ WIDTH = 1024
 HEIGHT = 600
 size = (WIDTH, HEIGHT)
 
-BACKGROUND = pygame.image.load('blackbox.jpg')
+BACKGROUND = pygame.image.load('scarletbox.jpg')
 BACKGROUND = pygame.transform.scale(BACKGROUND, size)
 BACKGROUND_RECT = BACKGROUND.get_rect()
 

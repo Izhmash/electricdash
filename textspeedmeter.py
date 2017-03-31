@@ -22,7 +22,7 @@ class Dash(object):
         self.speedFont = pygame.font.SysFont("Ubuntu Medium", self.speedSize)
         self.voltFont = pygame.font.SysFont("Ubuntu Medium", self.voltSize)
 
-        self.fps = 60
+        self.fps = 30
         self.clock = pygame.time.Clock()
         self.keys = self.getUserInput()
 
